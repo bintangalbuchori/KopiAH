@@ -35,7 +35,7 @@
         }
 
         nav a:hover {
-            background-color: #a47543;
+            background-color: #67431d;
         }
 
         .main-content {
@@ -91,7 +91,7 @@
         }
 
         .btn:hover {
-            background-color: #a47543;
+            background-color: #523313;
         }
     </style>
 </head>
@@ -112,14 +112,14 @@
 </nav>
 
 <div class="main-content" id="menu">
-    <h2>Our Coffe Menu</h2>
+    <h2>Our Coffee Menu</h2>
 
     <div class="coffee-item">
         <img src="ahsan agus.png" alt="Ndalu Coffee"/>
         <div class="text">
             <h2>Ndalu Coffee</h2>
             <p>Ndalu coffee merupakan kopi hitam pekat yang memiliki cita rasa serupa espresso.</p>
-            <a href="#" class="btn">order now</a>
+            <a href="#" class="btn" onclick="orderCoffee('Ndalu Coffee')">Order Now</a>
         </div>
     </div>
 
@@ -128,16 +128,16 @@
         <div class="text">
             <h2>Javano</h2>
             <p>Javano merupakan kopi dengan cita rasa serupa americano tetapi tetap mempertahankan cita rasa tradisional</p>
-            <a href="#" class="btn">order now</a>
+            <a href="#" class="btn" onclick="orderCoffee('Ndalu Coffee')">Order Now</a>
         </div>
     </div>
 
     <div class="coffee-item">
-        <img src="https://via.placeholder.com/200" alt=".....">
+        <img src="taro file gambar" alt=".....">
         <div class="text">
-            <h2>......</h2>
-            <p>.........</p>
-            <a href="#" class="btn">order now</a>
+            <h2>soon</h2>
+            <p>dienteni wae</p>
+            <a href="#" class="btn" onclick="orderCoffee('Ndalu Coffee')">Order Now</a>
         </div>
     </div>
 </div>
@@ -145,6 +145,12 @@
 <footer>
     <p>&copy; presented by 10.12</p>
 </footer>
+
+<script>
+    function orderCoffee(coffeeName) {
+        alert("Sampeyan sampun pesen " + coffeeName + "! sekedhap nggih, maturnuwun sanget");
+    }
+</script>
 
 </body>
 </html>
